@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#485"
+            android:gravity="center"
+            android:text="Fitness App"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="60dp"
+            app:cardCornerRadius="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:text="Easy Yoga"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:text="Days 60"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="110dp"
+                android:text="Every Day 15 MIN"
+                android:textColor="#D31616"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginLeft="80dp"
+                android:text="start"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        app:cardCornerRadius="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:text="Hard Yoga"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="Days 60"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="110dp"
+            android:text="Every Day 15 MIN"
+            android:textColor="#D31616"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="80dp"
+            android:text="start"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
